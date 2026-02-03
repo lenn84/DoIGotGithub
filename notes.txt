@@ -1,0 +1,26 @@
+git checkout -b [name]	Create new branch	"Safe space" to work
+git branch	Check branch	Verify you aren't on main
+git push -u origin [name]	Push new branch	Creates branch on GitHub
+git pull	Update local	Gets teammate's code
+
+git remote -v
+
+git remote remove origin
+
+git remote add origin https://github.com/YOU/my-project.git
+
+
+You run: git push
+
+Git looks at "origin".
+
+Git sees: https://github.com/TheOtherGuy/project.git
+
+
+Before: origin = https://github.com/TheOtherGuy...
+
+Run Command: git remote remove origin
+
+After: The variable origin does not exist.
+
+Note: Your files are still there. Your code is safe. You just cut the telephone wire to the old repository.
